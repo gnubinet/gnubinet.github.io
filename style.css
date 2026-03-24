@@ -1,0 +1,150 @@
+:root {
+    --bg: #0b0f19;
+    --bg-alt: #161b22;
+    --text: #e6edf3;
+    --accent-blue: #2188ff;
+    --accent-orange: #f78166;
+    --card-bg: #1c2128;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.nav-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { height: 50px; }
+
+.nav-links { display: flex; list-style: none; gap: 20px; }
+.nav-links a { text-decoration: none; color: var(--text); font-weight: 600; font-size: 0.9rem; }
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h1 { font-size: 3.5rem; margin-bottom: 20px; font-weight: 800; }
+.gradient-text {
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #8b949e;
+}
+
+.btn-primary {
+    background: var(--accent-blue);
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.btn-secondary {
+    border: 1px solid #30363d;
+    color: var(--text);
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Sections */
+.section { padding: 80px 0; }
+.bg-alt { background: var(--bg-alt); }
+.section-title { text-align: center; margin-bottom: 50px; font-size: 2.5rem; }
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+}
+
+/* Skill Tree Style */
+.skill-tree {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-node {
+    background: var(--card-bg);
+    padding: 20px;
+    border-left: 4px solid var(--accent-orange);
+    border-radius: 0 8px 8px 0;
+}
+
+.node-tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    background: #238636;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Ranks */
+.ranks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.rank-card {
+    border: 1px dashed #30363d;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.8rem;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    h1 { font-size: 2.2rem; }
+    .nav-links { display: none; }
+}
