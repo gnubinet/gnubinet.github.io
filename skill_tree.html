@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNUBi | Skill Tree</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-flex">
+            <a href="./index.html"><img src="./gnubi.png" alt="GNUBi Logo" class="logo"></a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="./skill_tree.html">Skill Tree</a></li>
+                <li><a href="https://github.com/gnubinet" class="btn-sm">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>The <span class="gradient-text">GNUBi Skill Tree</span></h1>
+            <p class="hero-sub">A structured path to mastering technology through collaborative learning.</p>
+        </div>
+    </header>
+
+    <section id="skill-categories" class="section">
+        <div class="container">
+            <h2 class="section-title">Your Path to Mastery</h2>
+
+            <div class="skill-category">
+                <h3><span class="node-tag">Phase 1</span> Foundational Skills</h3>
+                <p>The essential building blocks for any technologist.</p>
+                <div class="grid-3">
+                    <div class="card skill-card">
+                        <h4>Linux CLI Essentials</h4>
+                        <ul>
+                            <li>Navigating the filesystem (`ls`, `cd`, `pwd`)</li>
+                            <li>File manipulation (`cp`, `mv`, `rm`, `mkdir`)</li>
+                            <li>Text processing (`cat`, `grep`, `awk`, `sed`)</li>
+                            <li>Permissions (`chmod`, `chown`)</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>Git & Version Control</h4>
+                        <ul>
+                            <li>Basic commands (`init`, `add`, `commit`, `status`)</li>
+                            <li>Branching & Merging</li>
+                            <li>Remote repositories (`push`, `pull`, `clone`)</li>
+                            <li>Resolving conflicts</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>Networking Basics</h4>
+                        <ul>
+                            <li>IP addressing, Subnetting</li>
+                            <li>DNS, HTTP/HTTPS</li>
+                            <li>Common network tools (`ping`, `traceroute`, `netstat`)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><span class="node-tag">Phase 2</span> Core Development & Operations</h3>
+                <p>Bridging the gap between development and operations with key tools and practices.</p>
+                <div class="grid-3">
+                    <div class="card skill-card">
+                        <h4>Docker & Containerization</h4>
+                        <ul>
+                            <li>Dockerfile creation</li>
+                            <li>Image building & management</li>
+                            <li>Container orchestration (basic concepts)</li>
+                            <li>Docker Compose</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>CI/CD Pipelines</h4>
+                        <ul>
+                            <li>Understanding CI/CD principles</li>
+                            <li>Automated testing & deployment</li>
+                            <li>Pipeline tools (e.g., Jenkins, GitLab CI, GitHub Actions)</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>Python Scripting</h4>
+                        <ul>
+                            <li>Basic syntax & data types</li>
+                            <li>Functions & modules</li>
+                            <li>Scripting for automation</li>
+                            <li>Interacting with APIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><span class="node-tag">Phase 3</span> Cloud & Advanced Topics</h3>
+                <p>Specializing in cloud platforms and advanced architectural patterns.</p>
+                <div class="grid-3">
+                    <div class="card skill-card">
+                        <h4>Kubernetes Fundamentals</h4>
+                        <ul>
+                            <li>Pods, Deployments, Services</li>
+                            <li>kubectl commands</li>
+                            <li>Basic cluster management</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>Cloud Platform (AWS/Azure/GCP)</h4>
+                        <ul>
+                            <li>Core services (compute, storage, networking)</li>
+                            <li>Infrastructure as Code (Terraform, CloudFormation)</li>
+                            <li>Managed databases</li>
+                        </ul>
+                    </div>
+                    <div class="card skill-card">
+                        <h4>Observability & Monitoring</h4>
+                        <ul>
+                            <li>Logging (ELK Stack, Loki)</li>
+                            <li>Metrics (Prometheus, Grafana)</li>
+                            <li>Tracing (Jaeger, Zipkin)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 GNUBi. Inspired by the Zillona Open Source Community.</p>
+        </div>
+    </footer  >
+
+</body>
+</html>
+
