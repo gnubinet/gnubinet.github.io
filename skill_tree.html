@@ -18,6 +18,11 @@
                 <li><a href="./skill_tree.html">Skill Tree</a></li>
                 <li><a href="https://github.com/gnubinet" class="btn-sm">GitHub</a></li>
             </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
     </nav>
 
@@ -138,6 +143,15 @@
         </div>
     </footer  >
 
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('toggle');
+        });
+    </script>
 </body>
 </html>
 
