@@ -11,13 +11,13 @@ GNUBi is an open-source community dedicated to bridging the gap between curiosit
 *   **👨‍🏫 Teaching:** Share your knowledge and mentor others. Mentorship is the backbone of our ecosystem.
 *   **🌐 Networking:** Connect with industry experts and peers to grow your professional network.
 
-## 🌱 The Path to Mastery
+## 🌱 Community Roles & Growth
 
 We have a structured "Path to Mastery" that allows members to grow and take on more responsibility within the community. This path includes ranks such as:
 
 *   **Community Member:** Focus on foundational skills and community participation.
-*   **Apprentice:** Work on real-world projects and earn industry certifications.
-*   **Core Contributor:** Shape the future of GNUBi and mentor the next generation.
+*   **Active Contributor:** Work on real-world projects and earning industry certifications.
+*   **Lead Contributor:** Shape the future of GNUBi and mentor the next generation.
 
 Check out our [Skill Tree](https://gnubinet.github.io/skill_tree.html) to see the learning paths we offer.
 
@@ -29,4 +29,7 @@ We are excited to have you with us and look forward to your contributions!
 
 ## 🤝 Contributing
 
-This website is a community effort, and we welcome contributions! If you'd like to help improve the site, please feel free to browse our open issues, and submit a pull request.
+This website is a living document powered by the community, and we welcome contributions of all kinds.
+
+*   **Improve the Website:** If you'd like to help improve the site, please feel free to browse our open issues and submit a pull request.
+*   **Write Skill Tree Exercises:** A fantastic way to contribute is by sharing your knowledge. Create an exercise for our [Skill Tree](https://gnubinet.github.io/skill_tree.html) based on your experience. By sharing your knowledge, you help turn this site into a living document powered by the community. For more information on how to contribute exercises, please visit our [Welcome repository](https://github.com/gnubinet/Welcome).
